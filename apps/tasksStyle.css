@@ -1,0 +1,30 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    padding: 2.5vw; /* Equal responsive margins */
+}
+
+.rounded-box {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+    /* Change 20px to a viewport unit so it scales proportionally with zoom/resize */
+    border-radius: 2vw; 
+    
+    padding: 20px; 
+}
+
+.back_btn{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 4vw;
+    height: 6vh;
+    border-radius: 2vw; 
+}
